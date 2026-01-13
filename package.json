@@ -1,0 +1,31 @@
+{
+  "name": "veil",
+  "version": "1.0.0",
+  "description": "The Privacy SDK for Solana.",
+  "homepage": "https://github.com/Coding-With-Josh/veil#readme",
+  "bugs": {
+    "url": "https://github.com/Coding-With-Josh/veil/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coding-With-Josh/veil.git"
+  },
+  "license": "ISC",
+  "author": "Joshua Idele",
+  "type": "commonjs",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.7.4",
+    "typescript": "^5.9.3"
+  }
+}

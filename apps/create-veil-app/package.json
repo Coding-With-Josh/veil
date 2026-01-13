@@ -1,0 +1,8 @@
+{
+  "name": "create-veil-app",
+  "version": "0.0.1",
+  "private": true,
+  "bin": {
+    "create-veil-app": "index.js"
+  }
+}
