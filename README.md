@@ -85,7 +85,7 @@ Developers should be able to:
 Developer App
      |
      v
-@veil/sdk
+@veil-hq/sdk
      |
      +-- Provider Router
      |
@@ -106,7 +106,7 @@ Veil sits **between applications and privacy protocols**.
 Package name:
 
 ```
-@veil/sdk
+@veil-hq/sdk
 ```
 
 Responsibilities:
@@ -155,7 +155,7 @@ Properties:
 ## Installation
 
 ```bash
-npm install @veil/sdk
+npm install @veil-hq/sdk
 ```
 
 ## Quick Start
@@ -163,7 +163,7 @@ npm install @veil/sdk
 ### 1. Initialize the SDK
 
 ```typescript
-import { Veil } from "@veil/sdk";
+import { Veil } from "@veil-hq/sdk";
 
 const veil = new Veil({
   network: "devnet",
@@ -224,7 +224,7 @@ The SDK includes utility helpers for Token-2022 Confidential Transfers in `src/u
 Veil sits between your application and the underlying privacy protocols:
 
 ```
-Developer App  ->  @veil/sdk  ->  LazorKit Wallet
+Developer App  ->  @veil-hq/sdk  ->  LazorKit Wallet
                                       |
                                       +-> Privacy Cash
                                       +-> ShadowWire

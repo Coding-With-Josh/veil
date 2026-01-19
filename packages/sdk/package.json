@@ -1,5 +1,5 @@
 {
-  "name": "@veil/sdk",
+  "name": "@veil-hq/sdk",
   "version": "0.0.1",
   "private": false,
   "type": "module",
@@ -10,7 +10,10 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@lazorkit/wallet": "^2.0.1",
